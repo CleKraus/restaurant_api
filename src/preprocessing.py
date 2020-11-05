@@ -38,7 +38,10 @@ def select_relevant_columns(df: pd.core.frame.DataFrame) -> pd.core.frame.DataFr
     return df
 
 
-def hello_world_func(a):
+def hello_world_func(a: float) -> float:
 
     b = 2 * a
     return b
+
+
+hello_world_func(3)
