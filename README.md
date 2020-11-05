@@ -12,3 +12,5 @@ First code from VSC2
 Additional check
 
 Hallo Hallo
+
+Pre-commit
