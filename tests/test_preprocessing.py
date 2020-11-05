@@ -11,9 +11,6 @@ def initial_data_frame():
     return df
 
 
-
-
-
 def test_2_select_relevant_cols_original_df(initial_data_frame):
 
     df = pp.select_relevant_columns(initial_data_frame)
@@ -28,10 +25,9 @@ def test_3_error_select_relevant_cols():
     with pytest.raises(KeyError):
         pp.select_relevant_columns(df)
 
+
 def test_1_ensure_length_compatibility_df(initial_data_frame):
 
     df_pp = pp.select_relevant_columns(initial_data_frame)
     print("Test 1")
     assert len(initial_data_frame) == len(df_pp)
-
-
