@@ -44,4 +44,4 @@ def hello_world_func(a: float) -> float:
     return b
 
 
-hello_world_func(3)
+hello_world_func(5)
