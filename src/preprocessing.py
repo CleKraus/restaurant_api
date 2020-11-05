@@ -36,3 +36,9 @@ def select_relevant_columns(df: pd.core.frame.DataFrame) -> pd.core.frame.DataFr
         raise KeyError(msg)
 
     return df
+
+
+def hello_world_func(a):
+
+    b = 2 * a
+    return b
